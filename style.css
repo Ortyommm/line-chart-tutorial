@@ -1,0 +1,21 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+#chart {
+  width: 600px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.circle {
+  cursor: pointer;
+  transition: 0.2s stroke-width;
+}
+
+.tooltip {
+  padding: 20px;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 0 2px black;
+}
